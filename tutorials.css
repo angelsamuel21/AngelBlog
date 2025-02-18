@@ -1,0 +1,290 @@
+.second-section{
+    margin-top: 16vh;
+    height: 140vh!important;
+    padding-top: 0!important;
+    margin-top: 0!important;
+}
+
+.boxes-tutorial{
+    display: flex;
+}
+
+.box1-tutorial{
+    /* display: flex; */
+    background-color: rgb(7, 33, 59);
+    margin: 20px;
+    width: 100%;
+    border-radius: 10px;
+
+
+}
+.box1-tutorial-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1-tutorial img{
+    width: 30%;
+    margin: 10px;
+
+}
+
+
+
+.tutorial-desc{
+    font-size: 1.5rem;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.btn-tuts{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.btn-tuts button{
+    background-color: blueviolet;
+    color: white;
+    font-size: 1rem;
+    padding: 9px;
+    border-radius: 17px;
+    font-weight: bolder;
+    border: none;
+    
+
+}
+
+.btn-tuts button:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+/* RESPONSIVE STYLES - COURSES*/
+
+
+
+.second-section{
+    /* margin-top: 16vh!important; */
+    /* height: 300vh!important; */
+}
+
+.profile-cwa-footer{
+    width: 5%!important;
+}
+
+@media screen and (max-width: 1301px){
+
+    .second-section{
+        /* margin-top: 16vh!important; */
+        height: 145vh!important;
+    }
+
+}
+
+@media screen and (max-width: 1225px){
+
+    .second-section{
+        /* margin-top: 16vh!important; */
+        height: 145vh!important;
+        margin-bottom: 0!important;
+    }
+
+}
+
+@media screen and (max-width: 1185px){
+
+    .second-section{
+        margin-top: 16vh!important;
+        height: 145vh!important;
+        margin: 0!important;
+        
+    }
+
+    .profile-cwa-footer {
+        width: 6% !important;
+    }
+    
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+.second-section {
+    padding-top: 22vh !important;
+}
+
+
+@media screen and (max-width: 995px){
+    .profile-cwa-footer {
+        width: 6.9% !important;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1016px){
+    .profile-cwa{
+        width: 6.8%!important;
+        margin-top: 0;
+    }
+    .text-resp{
+        font-size: 1.3rem;
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+    .profile-cwa {
+        width: 7% !important;
+
+    }
+
+    .second-section {
+        height: 135vh!important;
+    }
+}
+
+@media screen and (max-width: 822px) {
+    .text-resp{
+        font-size: 1.17rem;
+    }
+    .text-resp2{
+        font-size: 1.3rem;
+    }
+    .profile-cwa-footer {
+        width: 8.5% !important;
+    }
+}
+
+
+@media screen and ( max-width: 777px){
+    .profile-cwa{
+        width: 9%!important;
+    }
+
+    .second-section {
+        height: 140vh !important;
+    }
+
+    .text-resp3{
+        font-size: 1.25rem;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    
+    .second-section{
+        height: 750vh!important;
+    }
+    .boxes-tutorial{
+        flex-direction: column;
+        margin: 50px!important;
+    }
+
+    .box1-tutorial{
+        margin: 0!important;
+        margin-bottom: 6vh!important;
+    }
+
+
+    
+}
+
+@media screen and ( max-width: 687px){
+    .second-section{
+        height: 715vh!important;
+    }
+}
+
+
+@media screen and ( max-width: 605px){
+    .profile-cwa{
+        width: 12%!important;
+        margin-top: 0.5vh!important;
+    }
+
+    .second-section {
+        height: 670vh !important;
+    }
+
+
+}
+
+
+@media screen and ( max-width: 555px){
+
+    .second-section {
+        height: 640vh !important;
+    }
+
+}
+
+
+@media screen and ( max-width: 465px){
+    .profile-cwa{
+        width: 15%!important;
+        margin-top: 0.5vh!important;
+    }
+
+    .second-section {
+        height: 580vh !important;
+    }
+
+}
+
+
+@media screen and ( max-width: 430px){
+    .second-section{
+        height: 590vh!important;
+    }
+}
+
+
+
+
+
+
+@media screen and ( max-width: 360px){
+    .profile-cwa{
+        width: 20%!important;
+        margin-top: 0.5vh!important;
+    }
+
+    .second-section{
+        height: 500vh!important;
+    }
+
+
+
+}
+
+@media screen and ( max-width: 300px){
+    .profile-cwa{
+        width: 23%!important;
+        margin-top: 0.5vh!important;
+    }
+
+}
+  
+
+/* COURSES CSS ENDS HERE  */

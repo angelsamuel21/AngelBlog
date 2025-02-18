@@ -1,0 +1,78 @@
+.second-section{
+    height: 80vh!important;
+}
+
+
+
+.contact{
+    margin: 190px;
+    margin-top: 7vh!important;
+    background-color: rgb(7, 33, 59);
+    padding: 20px;
+    border-radius: 10px;
+    /* width: 80vw; */
+    
+}
+
+
+
+
+.contact-heading{
+    color: antiquewhite;
+    margin-top: 8vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+}
+.profile-cwa-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile-cwa-contact img{
+    width: 15%;
+    border-radius: 150px;
+    margin-top: 4vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+
+.social-icons{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+.social-icons img{
+    margin-left: 2vw;
+}
+
+.profile-cwa-footer{
+    width: 5%!important;
+}
+
+
+
+@media screen and (max-width: 1170px){
+    .profile-cwa-footer{
+        width: 6%!important;
+    }
+
+
+}
+@media screen and (max-width: 1060px){
+    .vertical{
+        left: 30%!important;
+    }
+   
+
+
+}
+

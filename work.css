@@ -1,0 +1,99 @@
+.second-section{
+    display: flex;
+}
+
+
+
+.hiring-heading{
+    color: white;
+    margin-top: 35vh;
+    font-size: 2rem;
+    margin-left: 15vw;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+}
+
+.hiring-desc{
+    color: gray;
+    margin-left: 15vw;
+    font-size: 1.15rem;
+    margin-top: 1vh;
+    font-family: Tahoma, sans-serif,'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+}
+
+.hiring-left{
+    width: 60%;
+}
+
+.contact-work{
+    margin-top: 18vh;
+    background-color: rgb(7, 33, 59);
+    height: 60vh;
+    width: 22vw;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.gray{
+    color: gray;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+
+}
+.note{
+    color: rgb(228, 183, 77);
+    margin-left: 15vw;
+    font-size: 1.5rem;
+    margin-top: 2vh;
+    font-family: 'Cochin', Georgia, Times, 'Times New Roman', serif;
+}
+
+.apply{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 1vh;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.form-container {
+    width: 280px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style form elements */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bolder;
+    
+}
+
+.form-container select{
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.form-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
